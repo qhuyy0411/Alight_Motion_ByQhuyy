@@ -8,7 +8,7 @@ dns-server = 94.140.14.14, 94.140.15.15
 skip-cert-verify = true
 
 [Script]
-Alightmotion = type=http-response, pattern=https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses, script-path=https://raw.githubusercontent.com/quocchienn/Make/refs/heads/crack/AlightMotion.js, requires-body=true, timeout=10, tag=AlightMotion
+Alightmotion = type=http-response, pattern=https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses, script-path=https://raw.githubusercontent.com/qhuyy0411/Alight_Motion_ByQhuyy/main/AlightMotion.js, requires-body=true, timeout=10, tag=AlightMotion
 
 [MITM]
 hostname = %APPEND% us-central1-alight-creative.cloudfunctions.net
